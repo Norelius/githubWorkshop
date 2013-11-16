@@ -10,7 +10,7 @@ def main():
 	
 	# If the internal variable f.__string has been changed, we check if it was changed using the setter f.setString()
 	if f.getString() != original_string and f.setterUsed() == False:
-		print "ERROR! Something is wrong here! Did you manipulate private variables in the Functions class directly??"
+		print ("ERROR! Something is wrong here! Did you manipulate private variables in the Functions class directly??")
 		# Hint: We didn't, there is a bug in the Functions class	
 	else:
 		f.printString() # Print out f.__string	
